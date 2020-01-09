@@ -123,3 +123,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 ## Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'    # 設定登人後導向的頁面
+
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+  os.path.join(BASE_DIR, "static"),
+]
